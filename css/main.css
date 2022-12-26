@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&display=swap');
+
+/* всегда это использовать */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+}
+/* конец использования */
+
+/* глобальные стили */
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.separator {
+  width: 170px;
+  height: 1px;
+  margin: 60px auto 40px;
+}
+
+.separator--red-color {
+  background-color: #EC7979;
+}
+
+.main-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+.secondary-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #86878B;
+}
+/* конец глобальных стилей */
+
+/* tabs */
+.tab__list{
+  margin-top: 110px;
+}
+
+.tabs__header {
+  display: inline-block;
+  margin: auto
+}
+
+.tabs {
+  width: 200px;
+  border-bottom: 1px solid #cbcccc;
+}
+
+.tab__title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px; 
+  /* --Тут можно поправить */
+  text-align: center;
+  color: #3333;
+}
+
+.tab--active {
+  border: 1px solid #cbcccc;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
+}
+
+
+.tab-empty {
+  border-bottom: 1px solid #cbcccc;
+  width: 540px;
+}
+
+.tabs_title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 300px;
+  /* margin-top: 50px;  -- Исправить!*/
+  margin-bottom: 50px;
+}
+
+
+.tabs_content {
+  display: inline-flex;
+  border: 1px solid #cbcccc;
+  border-top : none;
+}
+
+.tabs_desc {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.tabs_image--wrapper {
+  width: 470px;
+  height: 500px;
+}
+
+.tabs_image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tabs__button-wrapper {
+  margin-top: 30px;
+}
+
+.button {
+  width: 270px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(255, 255, 255)000;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid rgb(253, 253, 253)000;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--red-color{
+  background-color: #EC7979;
+  border: none;
+}
+
+.button---red-color:hover {
+  background-color: #fad4d4;
+}
+/* tabs end */
+
+/* about */
+.about__list{
+  margin-top: 110px;
+}
+
+.tabs__header {
+  text-align: center;
+  display: inline-block;
+  width: calc(99%/3);
+}
+
+.list-item__image--wrapper {
+  display: inline-block;
+  height: 95px;
+  width: 95px;
+  border: 1px solid #EC7979;
+  border-radius: 50%;
+  margin-bottom: 80px;
+}
+
+.list-item__title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.list-item__text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+  /* about end */
